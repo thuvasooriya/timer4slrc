@@ -25,6 +25,7 @@
     "eject": "react-scripts eject",
     "start-electron": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
     "build-electron": "mkdir build/src && robocopy electron build/electron /S",
+    "build-electron:unix": "mkdir build/src && cp -r electron build/electron",
     "package": "electron-builder build --win -c.extraMetadata.main=build/electron/main.js --publish never"
   },
   "eslintConfig": {
