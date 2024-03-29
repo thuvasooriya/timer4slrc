@@ -23,17 +23,17 @@ Admin application can be used to enter three lap times (One Competitor has three
 ## Setup Guide
 
 - This project requires a firebase realtime databse, hence set it up and have the variables ready.
-- Setup nodejs and yarn if not already
+- Setup nodejs and yarn v1.22.22 if not already
   - Install nodejs with your preferred method
-  - Make sure you have yarn installed in your system
+  - Make sure you have yarn v1.22.22 setup
     - `which yarn` should return the path of yarn
     - else enable yarn using `corepack enable`
 - Navigate to respective directory `cd timer-admin` or `cd timer-client`
 - Setup .env files with firebase credentials
 - `yarn install`
 - `yarn build`
-- `yarn run build-electron:unix` \*
-- `yarn run package`
+- `yarn build-electron` or `yarn build-electron:unix` _*build script for unix systems*_
+- `yarn package`
 
 ### Acknowledgements
 

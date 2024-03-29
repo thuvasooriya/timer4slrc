@@ -1,6 +1,7 @@
 {
   "name": "slrc-timer-admin",
-  "version": "1.4.0",
+  "author": "eclub",
+  "version": "1.5.0",
   "main": "electron/main.js",
   "homepage": "./",
   "private": true,
